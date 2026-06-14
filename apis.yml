@@ -1,0 +1,41 @@
+name: Convex Finance
+description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards and CVX without locking CRV directly.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://www.convexfinance.com/
+created: "2026-06-14"
+modified: "2026-06-14"
+specificationVersion: "0.18"
+tags:
+  - DeFi
+  - Curve Finance
+  - Yield Boosting
+  - Liquidity Mining
+  - Ethereum
+  - GraphQL
+  - The Graph
+apis:
+  - name: Convex Finance GraphQL API
+    description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.convexfinance.com/
+    baseURL: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
+    tags:
+      - GraphQL
+      - Subgraph
+      - DeFi
+      - Pools
+      - Revenue
+    properties:
+      - type: GraphQL
+        url: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
+      - type: GraphQLSchema
+        url: https://raw.githubusercontent.com/convex-community/convex-subgraph/master/subgraphs/convex/schema.graphql
+      - type: Documentation
+        url: https://docs.convexfinance.com/
+      - type: X
+        url: https://x.com/ConvexFinance
+      - type: GitHub
+        url: https://github.com/convex-community/convex-subgraph
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
