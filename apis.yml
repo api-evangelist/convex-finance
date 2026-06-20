@@ -1,6 +1,6 @@
 name: Convex Finance
 description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards and CVX without locking CRV directly.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://www.convexfinance.com/
 created: "2026-06-14"
 modified: "2026-06-14"
@@ -16,7 +16,7 @@ tags:
 apis:
   - name: Convex Finance GraphQL API
     description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.convexfinance.com/
     baseURL: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
     tags:
