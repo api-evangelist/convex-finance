@@ -39,3 +39,8 @@ apis:
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
+common:
+  - type: DomainSecurity
+    url: security/convex-finance-domain-security.yml
+  - url: https://medium.com/feed/@convexfinance
+    type: Blog
