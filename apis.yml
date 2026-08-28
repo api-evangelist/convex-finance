@@ -1,5 +1,16 @@
 name: Convex Finance
 description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards and CVX without locking CRV directly.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
