@@ -1,5 +1,7 @@
 name: Convex Finance
-description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards and CVX without locking CRV directly.
+description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker
+  yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards
+  and CVX without locking CRV directly.
 deliveryModel:
   model: unknown
   open_source: false
@@ -24,45 +26,48 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/convex-finance.png
 url: https://www.convexfinance.com/
-created: "2026-06-14"
-modified: "2026-06-14"
+created: '2026-06-14'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
-  - DeFi
-  - Curve Finance
-  - Yield Boosting
-  - Liquidity Mining
-  - Ethereum
-  - GraphQL
-  - The Graph
+- DeFi
+- Curve Finance
+- Yield Boosting
+- Liquidity Mining
+- Ethereum
+- GraphQL
+- The Graph
 apis:
-  - name: Convex Finance GraphQL API
-    description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.convexfinance.com/
-    baseURL: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
-    tags:
-      - GraphQL
-      - Subgraph
-      - DeFi
-      - Pools
-      - Revenue
-    properties:
-      - type: GraphQL
-        url: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
-      - type: GraphQLSchema
-        url: https://raw.githubusercontent.com/convex-community/convex-subgraph/master/subgraphs/convex/schema.graphql
-      - type: Documentation
-        url: https://docs.convexfinance.com/
-      - type: X
-        url: https://x.com/ConvexFinance
-      - type: GitHub
-        url: https://github.com/convex-community/convex-subgraph
+- name: Convex Finance GraphQL API
+  description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits,
+    withdrawals, revenue, and user activity via The Graph protocol.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.convexfinance.com/
+  baseURL: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
+  tags:
+  - GraphQL
+  - Subgraph
+  - DeFi
+  - Pools
+  - Revenue
+  properties:
+  - type: GraphQL
+    url: https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph
+  - type: GraphQLSchema
+    url: https://raw.githubusercontent.com/convex-community/convex-subgraph/master/subgraphs/convex/schema.graphql
+  - type: Documentation
+    url: https://docs.convexfinance.com/
+  - type: X
+    url: https://x.com/ConvexFinance
+  - type: GitHub
+    url: https://github.com/convex-community/convex-subgraph
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+- FN: API Evangelist
+  email: info@apievangelist.com
 common:
-  - type: DomainSecurity
-    url: security/convex-finance-domain-security.yml
-  - url: https://medium.com/feed/@convexfinance
-    type: Blog
+- type: Website
+  url: https://convexfinance.com
+- type: DomainSecurity
+  url: security/convex-finance-domain-security.yml
+- url: https://medium.com/feed/@convexfinance
+  type: Blog
