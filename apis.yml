@@ -4,14 +4,17 @@ description: Convex Finance is a DeFi protocol that boosts Curve Finance liquidi
   and CVX without locking CRV directly.
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - convex-community/convex-subgraph
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
