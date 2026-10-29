@@ -1,4 +1,4 @@
-# Convex Finance (convex-finance)
+# Convex Finance
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,49 +66,88 @@
 
 Convex Finance is a DeFi protocol that boosts Curve Finance liquidity provider and CRV staker yields through its CVX token and pooled staking mechanism. It allows users to earn boosted CRV rewards and CVX without locking CRV directly.
 
-**APIs.json:** [https://www.convexfinance.com/](https://www.convexfinance.com/)
+**Areas:** DeFi · Curve Finance · Yield Boosting · Liquidity Mining · Ethereum · GraphQL · The Graph
 
-## Tags
+## Convex Finance on APIs.io
 
-- DeFi
-- Curve Finance
-- Yield Boosting
-- Liquidity Mining
-- Ethereum
-- GraphQL
-- The Graph
+Everything profiled for Convex Finance is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/convex-finance/](https://apis.io/providers/convex-finance/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-14
-- **Modified:** 2026-06-14
+- [Convex Finance GraphQL API](https://apis.io/apis/convex-finance/convex-finance-graphql-api/) — Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
 
-## APIs
+### Published properties
 
-### Convex Finance GraphQL API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
+#### GraphQL (1)
 
-- **Human URL:** [https://docs.convexfinance.com/](https://docs.convexfinance.com/)
-- **Base URL:** `https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph`
+GraphQL schemas.
 
-#### Tags
+- [Convex Finance GraphQL API](https://apis.io/graphqls/convex-finance/convex-finance-graphql/)
 
-- GraphQL
-- Subgraph
-- DeFi
-- Pools
-- Revenue
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Graph Q L](https://api.thegraph.com/subgraphs/name/convex-community/convex-subgraph)
-- [Graph Q L Schema](https://raw.githubusercontent.com/convex-community/convex-subgraph/master/subgraphs/convex/schema.graphql)
-- [Documentation](https://docs.convexfinance.com/)
-- [X (Twitter)](https://x.com/ConvexFinance)
-- [Git Hub](https://github.com/convex-community/convex-subgraph)
+- [Convex Finance Domain Security](https://apis.io/security/convex-finance/convex-finance-domain-security/)
 
-## Maintainers
+## Where to find this API
 
-**FN:** API Evangelist
-**Email:** info@apievangelist.com
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://convexfinance.com)
+- [Blog](https://medium.com/feed/@convexfinance)
+
+## API Evangelist rating
+
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 29.8 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/convex-finance/](https://apis.io/providers/convex-finance/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Convex Finance: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/convex-finance/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
